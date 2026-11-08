@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="Bible in HD: explore Scripture, grow in faith, and find a daily moment with God. Available in English and French.">
+  <title>Bible in HD | See Scripture Clearly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bible in HD home">
+      <span class="brand-mark">✦</span><span>BIBLE <b>IN HD</b><small>SEE SCRIPTURE CLEARLY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <nav id="mainNav">
+      <a href="#explore" data-i18n="navExplore">Explore Bible</a>
+      <a href="#study" data-i18n="navStudy">Bible Study</a>
+      <a href="#devotional" data-i18n="navDevotional">Devotionals</a>
+      <a href="#prayer" data-i18n="navPrayer">Prayer</a>
+      <a href="#watch" data-i18n="navWatch">Watch & Listen</a>
+    </nav>
+    <div class="header-actions"><button class="language" id="languageToggle">FR</button><a class="header-cta" href="#devotional" data-i18n="begin">Begin today ↗</a></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span><span data-i18n="eyebrow">A CLEARER VIEW OF THE WORD</span></div>
+        <h1 data-i18n="heroTitle">Discover the Word.<br><em>See it differently.</em></h1>
+        <p class="hero-intro" data-i18n="heroText">A thoughtful space to explore the Bible, deepen your understanding, and make room for God in everyday life.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#explore" data-i18n="exploreBtn">Explore Scripture <span>↗</span></a><a class="text-link" href="#devotional" data-i18n="dailyBtn">Today's devotional <span>→</span></a></div>
+        <div class="hero-note"><span class="note-icon">✧</span><span data-i18n="heroNote">For curious hearts and growing faith.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative open Bible illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="halo"></div>
+        <div class="book"><div class="book-page left-page"><i></i><i></i><i></i><i></i><i></i></div><div class="book-page right-page"><i></i><i></i><i></i><i></i><i></i></div><div class="book-spine"></div></div>
+        <div class="verse-card"><span data-i18n="verseLabel">A WORD TO CARRY</span><strong>“Your word is a lamp<br>to my feet…”</strong><small>PSALM 119:105</small></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div><div class="spark spark-three">✦</div>
+      </div>
+    </section>
+
+    <section class="verse-strip">
+      <div class="verse-label" data-i18n="todayVerse">TODAY'S SCRIPTURE</div>
+      <blockquote data-i18n="verseText">“The Lord is my strength and my shield; my heart trusts in him, and he helps me.”</blockquote>
+      <span>PSALM 28:7</span>
+    </section>
+
+    <section class="section" id="explore">
+      <div class="section-heading"><div><div class="eyebrow"><span></span><span data-i18n="exploreEyebrow">OPEN THE WORD</span></div><h2 data-i18n="exploreTitle">Explore the <em>Bible</em></h2></div><p data-i18n="exploreText">Start with a book, a theme, or a question. There is always something new to discover.</p></div>
+      <div class="feature-grid">
+        <a class="feature-card feature-large" href="#study"><div class="feature-icon">⌘</div><span class="card-kicker">01 / DISCOVER</span><h3 data-i18n="cardBooks">Books of the Bible</h3><p data-i18n="cardBooksText">Meet the people, places and stories that shape the biblical narrative.</p><span class="card-arrow">↗</span></a>
+        <a class="feature-card feature-blue" href="#study"><div class="feature-icon">✧</div><span class="card-kicker">02 / UNDERSTAND</span><h3 data-i18n="cardThemes">Themes & Topics</h3><p data-i18n="cardThemesText">Explore faith, hope, purpose, forgiveness and the questions of life.</p><span class="card-arrow">↗</span></a>
+        <a class="feature-card feature-gold" href="#devotional"><div class="feature-icon">☼</div><span class="card-kicker">03 / GROW</span><h3 data-i18n="cardPlans">Reading Plans</h3><p data-i18n="cardPlansText">Build a steady rhythm with guided journeys through Scripture.</p><span class="card-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="study-band" id="study"><div class="study-symbol">✦</div><div><div class="eyebrow"><span></span><span data-i18n="studyEyebrow">GO DEEPER</span></div><h2 data-i18n="studyTitle">Read with curiosity.<br><em>Understand with context.</em></h2><p data-i18n="studyText">Bible study should invite questions, connect the dots, and help Scripture speak into real life. Our study library is being prepared.</p><a class="button button-outline" href="#resources" data-i18n="studyBtn">Explore study resources ↗</a></div><div class="study-decoration"><div class="ring"></div><div class="ring ring-two"></div><span>λόγος</span></div></section>
+
+    <section class="section devotional-section" id="devotional">
+      <div class="section-heading"><div><div class="eyebrow"><span></span><span data-i18n="devEyebrow">A MOMENT WITH GOD</span></div><h2 data-i18n="devTitle">Pause. Reflect. <em>Grow.</em></h2></div><p data-i18n="devIntro">A little space in your day can make room for a deeper perspective.</p></div>
+      <article class="devotional-card"><div class="devotional-date"><span>08</span><small>NOV<br>2026</small></div><div class="devotional-content"><span class="card-kicker" data-i18n="dailyReflection">DAILY REFLECTION</span><h3 data-i18n="devHeading">Strength for the next step</h3><p data-i18n="devText">You do not need to see the whole road to take the next faithful step. Ask God for the strength you need for today, and let tomorrow arrive in its own time.</p><strong>“The Lord is my strength and my shield.” <small>PSALM 28:7</small></strong></div><div class="devotional-side">✧</div></article>
+    </section>
+
+    <section class="prayer-section" id="prayer"><div class="prayer-orb">✧</div><div class="prayer-copy"><div class="eyebrow"><span></span><span data-i18n="prayerEyebrow">YOU CAN BRING IT ALL</span></div><h2 data-i18n="prayerTitle">A quiet place<br>to <em>pray.</em></h2><p data-i18n="prayerText">Joy, questions, gratitude, worry. Whatever is on your heart, take a moment to bring it before God.</p><button class="button button-gold" id="prayerButton" data-i18n="prayerBtn">Open a prayer moment ↗</button></div><div class="prayer-prompt" id="prayerPrompt"><span data-i18n="prayerPromptLabel">A SIMPLE PRAYER</span><p data-i18n="prayerPromptText">Lord, meet me in this moment. Give me a listening heart, steady faith, and wisdom for the step in front of me. Amen.</p><button id="closePrayer" data-i18n="close">Close ×</button></div></section>
+
+    <section class="section resources-section" id="resources"><div class="section-heading"><div><div class="eyebrow"><span></span><span data-i18n="resourcesEyebrow">KEEP EXPLORING</span></div><h2 data-i18n="resourcesTitle">Faith for <em>everyday life.</em></h2></div><p data-i18n="resourcesText">Practical resources to help you keep learning and growing.</p></div><div class="resource-row"><div><span>01</span><h3 data-i18n="resourceOne">Bible reading guides</h3><p data-i18n="resourceOneText">Simple ways to build a meaningful reading rhythm.</p></div><div><span>02</span><h3 data-i18n="resourceTwo">Faith questions</h3><p data-i18n="resourceTwoText">Thoughtful starting points for honest conversations.</p></div><div><span>03</span><h3 data-i18n="resourceThree">Watch & Listen</h3><p data-i18n="resourceThreeText">Video teachings and audio encouragement, coming soon.</p></div></div></section>
+
+    <section class="watch-section" id="watch"><div><div class="eyebrow"><span></span><span data-i18n="watchEyebrow">WATCH & LISTEN</span></div><h2 data-i18n="watchTitle">Let the message<br><em>stay with you.</em></h2><p data-i18n="watchText">Video teachings and uplifting conversations will live here. Visit our YouTube channel in the meantime.</p><a class="button button-outline" href="https://www.youtube.com/channel/UC8HsQFDn6XgAmIPm2Wuvmig" target="_blank" rel="noopener">Visit YouTube ↗</a></div><div class="video-placeholder"><div class="play-button">▶</div><span>BIBLE IN HD / WATCH & LISTEN</span></div></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">✦</span><span>BIBLE <b>IN HD</b><small>SEE SCRIPTURE CLEARLY</small></span></a><p data-i18n="footerText">A space to discover Scripture and grow in faith.</p><div class="footer-bottom"><span>© 2026 BIBLE IN HD</span><span>ENGLISH · FRANÇAIS</span><a href="#home">BACK TO TOP ↑</a></div></footer>
+  <script src="app.js"></script>
+</body>
+</html>
